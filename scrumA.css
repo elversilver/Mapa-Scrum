@@ -1,0 +1,386 @@
+body {
+    background-image:Url(img/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1350px;
+}
+div {
+    text-align: left;
+}
+.ren {
+    border: solid 1px transparent;
+}
+button {
+    border: solid 1px transparent;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+button:hover {
+    border: solid 1px deepskyblue;
+}
+
+button:active{
+    background-color: aquamarine;
+    border: solid 1px transparent;
+    border-radius: 6px;
+}
+
+/****************************************************/
+/****************************************************/
+.creador {
+    margin: 0px 0px 40px 50px ;
+}
+#creador {
+    font-family: Verdana;
+    width: 420px;
+}
+/****************************************************/
+/****************************************************/
+
+#uno {
+    margin-top: 295px;/********************     Renglón N1     ********************/
+    margin-bottom: 45px;
+}
+#uno .one {
+    margin-left:565px;
+    width: 100px;
+}
+#uno .two {
+    margin-left:580px;
+    width: 90px;
+}
+
+#dos {
+    margin-top: 0px;/********************     Renglón N2     ********************/
+}
+#dos .one {
+    margin-left:890px;
+    width: 135px;
+}
+
+#tres {
+    margin-top: 0px;/********************     Renglón N3     ********************/
+    margin-bottom: 35px;
+}
+#tres .one {
+    margin-left:560px;
+    width: 110px;
+}
+#tres .two {
+    margin-left:575px;
+    width: 95px;
+}
+
+/*****************************************************************************************************************************/
+/*****************************************************************************************************************************/
+
+.con {/***************************************************   CONTENEDOR GENERAL DE LA SECCION   ******************************/
+    margin-bottom: 72px;
+    border: solid 1px transparent;
+    display: flex;
+    height: 250px;
+}
+
+.sec_A{
+    border: solid 1px transparent;/***************************   SECCIÓN DE LA ISQUIERDA  ***********************************/
+    width: 45.5%;
+}
+.sec_B{
+    border: solid 2px transparent;/*******************************   SECCIÓN DEL CENTRO  *************************************/
+    width: 11%;
+}
+.sec_C{
+    border: solid 1px transparent;/***********************   SECCIÓN DE LA DERECHA  ***********************************/
+    width: 44%;
+}
+
+/*****************************************************************************************************************************/
+/*****************************************************************************************************************************/
+
+#cuatro_a {
+    margin-top: 0px;/***********************     Renglón N4     ********************/
+    margin-bottom: 0px;
+}
+#cuatro_a .one {
+    margin-left:324px;
+    width: 100px;
+}
+#cuatro_a .two {
+    margin-left:337px;
+    width: 35px;
+    font-family: sans-serif;
+}
+
+#quinto_a {
+    margin-bottom: 2px;/********************     Renglón N5     ********************/
+}
+#quinto_a .one {
+    margin-left:79px;
+    width: 170px;
+}
+#quinto_a .two {
+    margin-left:455px;
+    width: 35px;
+    font-family: sans-serif;
+}
+
+#sexto_a {
+    margin-bottom: 2px;/***************************     Renglón N6     ********************/
+}
+#sexto_a .one {
+    margin-left:765px;
+    width: 35px;
+    font-family: sans-serif;
+}
+#septimo_a {
+    margin-bottom: 0px;/********************     Renglón N7     ********************/
+}
+#septimo_a .one {
+    margin-left:45px;
+    width: 260px;
+}
+#septimo_a .two {
+    margin-left:174px;
+    width: 100px;
+}
+#septimo_a .three {
+    margin-left:120px;
+    width: 35px;
+    font-family: sans-serif;
+}
+#octavo_a {
+    margin: 0px;/***************************     Renglón N8     ********************/
+    margin-bottom: 0px;
+}
+#octavo_a .one {
+    margin-left:765px;
+    width: 35px;
+    font-family: sans-serif;
+}
+#noveno_a {
+    margin: 0px;/***************************     Renglón N9     ********************/
+    margin-bottom: 0px;
+}
+#noveno_a .one {
+    margin-left:118px;
+    width: 130px;
+}
+#noveno_a .two {
+    margin-left:452px;
+    width: 40px;
+    font-family: sans-serif;
+}
+#decimo_a {
+    margin: 0px;/********************     Renglón N10     ********************/
+    margin-bottom: 78px;
+}
+#decimo_a .one {
+    margin-left:295px;
+    width: 130px;
+}
+
+/****************************************************/
+/****************************************************/
+
+.sec_B #uno {
+    margin-top: 40%;
+    margin-left: 5% ;
+    border:solid 2px transparent;
+    width: 90%;
+    transform: rotate(270deg); /* Rota el elemento 90 grados */
+}
+
+/****************************************************/
+/****************************************************/
+
+
+#cuatro_c {
+    margin-top: 0px;/***********************     Renglón N4     ********************/
+    margin-bottom: 0px;
+}
+#cuatro_c .three {
+    margin-left:45px;
+    width: 35px;
+    font-family: sans-serif;
+}
+
+#quinto_c {
+    margin-bottom: 2px;/********************     Renglón N5     ********************/
+}
+#quinto_c .three {
+    margin-left:102px;
+    width: 35px;
+    font-family: sans-serif;
+}
+#quinto_c .four {
+    margin-left:350px;
+    width: 175px;
+}
+
+#sexto_c {
+    margin-bottom: 2px;/********************     Renglón N6     ********************/
+}
+#sexto_c .two {
+    margin-left:45px;
+    width: 35px;
+    font-family: sans-serif;
+}
+
+#septimo_c {
+    margin-bottom: 2px;/********************     Renglón N7     ********************/
+}
+#septimo_c .four {
+    margin-left:102px;
+    width: 35px;
+    font-family: sans-serif;
+}
+#septimo_c .five {
+    margin-left:126px;
+    width: 100px;
+}    
+#septimo_c .six {
+    margin-left:114px;
+    width: 150px;
+}
+
+#octavo_c {
+    margin: 0px;/********************     Renglón N8     ********************/
+    margin-bottom: 0px;
+}
+#octavo_c .two {
+    margin-left:45px;
+    width: 40px;
+    font-family: sans-serif;
+}
+
+#noveno_c {
+    margin: 0px;/********************     Renglón N9     ********************/
+    margin-bottom: 0px;
+}
+#noveno_c .three {
+    margin-left:102px;
+    width: 40px;
+    font-family: sans-serif;
+}
+#noveno_c .four {
+    margin-left:345px;
+    width: 150px;
+}
+
+/*****************************************************************************************************************************/
+/*****************************************************************************************************************************/
+
+#undecimo {
+    margin: 0px;/********************     Renglón N11     ********************/
+    margin-bottom: 38px;
+}
+#undecimo .one {
+    margin-left:105px;
+    width: 210px;
+}
+#undecimo .two {
+    margin-left:1285px;
+    width: 200px;
+    font-family: sans-serif;
+}
+
+#duodecimo {
+    margin: 0px;/********************     Renglón N12     ********************/
+    margin-bottom: 34px;
+}
+#duodecimo .one {
+    margin-left:120px;
+    width: 195px;
+}
+#duodecimo .two {
+    margin-left:118px;
+    width: 150px;
+}
+#duodecimo .three {
+    margin-left:730px;
+    width: 170px;
+}
+#duodecimo .four {
+    margin-left:110px;
+    width: 200px;
+}
+
+#trigecimo {
+    margin: 0px;/********************     Renglón N13     ********************/
+    margin-bottom: 0px;
+}
+#trigecimo .one {
+    margin-left:75px;
+    width: 240px;
+}
+#trigecimo .two {
+    margin-left:1286px;
+    width: 220px;
+}
+
+#decimocuarto {
+    margin: 0px;/********************     Renglón N14     ********************/
+    margin-bottom: 75px;
+}
+#decimocuarto .one {
+    margin-left:900px;
+    width: 110px;
+    font-family: sans-serif;
+}
+
+#decimoquinto {
+    margin: 0px;/********************     Renglón N15     ********************/
+    margin-bottom: 110px;
+}
+#decimoquinto .one {
+    margin-left:885px;
+    width: 140px;
+}
+
+#decimosexto {
+    margin: 0px;/********************     Renglón N16     ********************/
+    margin-bottom: 0px;
+}
+#decimosexto .one {
+    margin-left:55px;
+    width: 200px;
+}
+#decimosexto .two {
+    margin-left:205px;
+    width: 190px;
+}
+#decimosexto .three {
+    margin-left:205px;
+    width: 190px;
+}
+#decimosexto .four {
+    margin-left:170px;
+    width: 255px;
+}
+#decimosexto .five {
+    margin-left:150px;
+    width: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
